@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0640" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-04-11T11:12:33" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_pagination_middleware" timestamp="2021-04-11T11:12:33" tests="7" file="D:\DATA\Nodejs\node-pagination\test\index.spec.js" time="0.0640" failures="0">
+    <testcase name="express_pagination_middleware Should have the context object in the request" time="0.0030" classname="Should have the context object in the request">
+    </testcase>
+    <testcase name="express_pagination_middleware Should have property id, timestamp, path in trace object" time="0.0010" classname="Should have property id, timestamp, path in trace object">
+    </testcase>
+    <testcase name="express_pagination_middleware Should have the default page, limit and skip property values" time="0.0010" classname="Should have the default page, limit and skip property values">
+    </testcase>
+    <testcase name="express_pagination_middleware Should set the correct skip value based on page and limit" time="0.0000" classname="Should set the correct skip value based on page and limit">
+    </testcase>
+    <testcase name="express_pagination_middleware Should have a valid search property in context object" time="0.0010" classname="Should have a valid search property in context object">
+    </testcase>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 1 " time="0.0510" classname="Should respond with the correct data - 1 ">
+    </testcase>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 2" time="0.0070" classname="Should respond with the correct data - 2">
+    </testcase>
+  </testsuite>
+</testsuites>
